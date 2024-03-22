@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clicks img {
+  width: 25px;
+  height: 25px;
+}
+.nav-div {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  width: 20%;
+  height: 100vh;
+  padding: 30px 0 0 30px;
+  position: fixed;
+}
+.navlogo{
+    font-size: larger;
+}
+.text-e {
+  color: rgb(151, 65, 255);
+}
+.home-text a {
+  text-decoration: none;
+  color: rgb(143, 140, 140);
+  font-size: large;
+  font-weight: bold;
+  transition-duration: 100ms;
+}
+.home-text a:hover {
+  color: black;
+  transition-duration: 100ms;
+}
+.nav-click {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.clicks {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.main-backg {
+  background-color: rgb(246, 246, 246);
+  height: 100%;
+  margin-left: 20%;
+}
+.main-container{
+  width: 95%;
+  margin: 0 auto;
+}
+.search{
+  display: flex;
+  justify-content: flex-end;
+}
+.search img {
+  margin-top: 30px;
+  width: 30px;
+  height: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.rec{
+    
+    padding-bottom: 30px;
+}
+.momemtum{
+  padding: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+.momem-img-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.momem-img img{
+    width: 613px;
+    height: 374px; 
+    margin-left: 30px; 
+}
+#web {
+    text-transform: capitalize;
+    color: purple;
+    font-weight: bold;
+    font-size: large;
+}
+.momem-img-text h2{
+    font-size: 40px;
+}
+.profile-top-r{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.cover-profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.info-text{
+    width: 430px;
+}
+.button-vl button{
+    background-color: rgb(49, 48, 48);
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: none;
+    text-transform: uppercase;
+    transition-duration: 500ms;
+}
+.button-vl button:hover{
+    background-color: rgb(124, 63, 124);
+    transition-duration: 500ms;
+}
+.section-2{
+  margin-top: 40px;
+}
+.sec-2-container img{
+  width: 370px;
+}
+.sec-2-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  
+}
+.sec-2-divs{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.texts-sec-2 {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.profile-mid-r{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile-mid-r{
+  background-image: url(https://assets-global.website-files.com/5ec0480d4930cd200885acbd/5ec2f38e200389241be71792_michael-dam-mEZ3PoFGs_k-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#girl-2{
+  background-image: url(https://assets-global.website-files.com/5ec0480d4930cd200885acbd/5ec2f372585f8ebf63b8b901_jake-nackos-IF9TK5Uy-KI-unsplash.jpg);
+}
+#girl-3{
+  background-image: url(https://assets-global.website-files.com/5ec0480d4930cd200885acbd/5ec2f382879ec946c4fd75bd_juan-encalada-WC7KIHo13Fc-unsplash.jpg);
+}
+#view-all{
+  padding-top: 5px;
+}
+#viewall{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  
+}
+
+.jan-cal{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+  
+}
+.cal-text{
+  color: purple;
+}
+.jan-div{
+  height: 100px;
+  background-color: white;
+  display: flex;
+  gap: 30px;
+  padding: 30px 0 90px 30px;
+  
+}
+.cal-main-text{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cal-main-text h4{
+  font-size: large;
+}
+.section-3{
+  display: flex;
+  flex-direction: column ;
+  gap: 40px;
+}
+.section-3 #assign{
+  margin-bottom: -50px;
+}
+#last-div{
+  width: 400px;
+}
+#bds-text{
+  background-color: white;
+  padding-top: 30px;
+}
+.bottom-div-sesh{
+  display: flex;
+  gap: 30px;
+}
+
+#view-all-last{
+  margin-bottom: 40px;
+}
+#mc-lesson{
+  padding-bottom: 100px;
+}
+#back-assign{
+  height: 100vh;
+}
+.up-2-upcom{
+  height:60px;
+  background-color: white;
+  margin:30px 0 30px 0;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+}
+#news-bg{
+  height: 100vh;
+ display: flex;
+  align-items: center;
+}
+#news-sesh{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+
+
+
+
